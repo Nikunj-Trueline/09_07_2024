@@ -23,3 +23,11 @@ int main()
 
     return 0;
 }
+
+// single line comment  me tamne aaa samajavva mate comment lakhi che
+
+/*
+multi-line comment
+
+
+*/
