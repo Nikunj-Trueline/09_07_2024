@@ -16,6 +16,9 @@ operator.
 
 5. Ternary operators.
 
+6. bitwise operator.
+     &   |   ^   <<  >>  ~
+
 */
 
 #include <stdio.h>
@@ -95,6 +98,27 @@ int main()
 
     //   condition ?  statment 1 :  statment2 ;
     y > z ? printf("true part") : printf("false part");
+
+    printf("--------BINARY OPERATOR--------\n");
+
+    int z1 = 25;
+
+    printf("Bitwise and (&) : %d\n", z1 >> 2);
+
+    // << - bitiwise left shift
+    //  >> - bitwise right shift
+    //  &   -  bitwise and operator
+    //  |   - bitiwse or operator
+    //  ^   - bitwise xor operator
+    //  ~  - bitwise complicate
+
+    printf("--------Operator precedence and asscocivity.\n");
+
+    int var1 = 10, var2 = 20, var3 = 30, var4 = 40;
+
+    int store = var1 * var2 - var3 / var4;
+
+    printf("%d\n", store);
 
     return 0;
 }
