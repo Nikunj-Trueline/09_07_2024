@@ -1,2 +1,1 @@
 
-    printf("Note is : \n");
